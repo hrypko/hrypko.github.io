@@ -1,0 +1,40 @@
+{
+	"facebook_account_url" : "https://www.facebook.com/profile.php?id=100004244534944",
+	"twitter_account_url" : "http://twitter.com",
+	"behance_account_url" : "https://www.behance.net/HRYPKO",
+	
+	"portfolios" : [
+		{
+			"title" : "Alter's Home",
+			"thumbnail" : "works/alter/thumb.jpg",
+			"detailImages" : [
+				{"url" : "works/alter/f_cor.jpg"},
+				{"url" : "works/alter/f_door.jpg"},
+				{"url" : "works/alter/f_left.jpg"},
+				{"url" : "works/alter/kitchen.jpg"},
+				{"url" : "works/alter/kitchen_2.jpg"},
+				{"url" : "works/alter/render_View01.jpg"},
+				{"url" : "works/alter/render_View02.jpg"},
+				{"url" : "works/alter/render_View03.jpg"}
+			]
+		},
+		{
+			"title" : "super cool project",
+			"thumbnail" : "works/1-thumb.png",
+			"detailImages" : [
+				{"url" : "works/1-thumb.png"},
+				{"url" : "works/2-thumb.png"},
+				{"url" : "works/3-thumb.png"}
+			]
+		},
+		{
+			"title" : "super cool project2",
+			"thumbnail" : "works/2-thumb.png",
+			"detailImages" : [
+				{"url" : "works/4-thumb.png"},
+				{"url" : "works/5-thumb.png"},
+				{"url" : "works/6-thumb.png"}
+			]
+		}
+	]
+}

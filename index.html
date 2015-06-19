@@ -1,1 +1,180 @@
-test
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>HRYPKO - Design</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/HoverEffects/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/HoverEffects/component.css" rel="stylesheet" type="text/css" />
+    
+    <link rel="stylesheet" href="workDetail/css/bootstrap-image-gallery.css">
+    <link rel="stylesheet" href="workDetail/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="workDetail/css/demo.css">
+
+    <link href="css/core.css" rel="stylesheet">
+    <link href="css/min-width768.css" rel="stylesheet">
+    <link href="css/min-width1200.css" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#works">Works</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#philosophy">Philosophy</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <a href="#works" class="btn btn-navigation page-scroll"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <section id="works" class="works text-center">
+        <div class="works-header">
+                <div class="text-center">
+                    <h1>WORKS</h1>
+                </div>
+        </div>
+        <div class="works-content">
+            <div id="portfolio-grid" class="grid">
+                <!-- example -->
+                <!--<figure class="effect-chico">
+                        <img src="#"/>
+                        <figcaption>
+                            <p>##</p>
+                            <a href="#workDetails" id="1" data-toggle="modal">View more</a>
+                        </figcaption>			
+                    </figure>-->
+            </div>
+        </div>
+    </section>
+
+    <section id="philosophy" class="philosophy container-fluid text-center">
+        <div class="philosophy-header">
+            <div class="text-center">
+                <h1>Philosophy</h1>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="col-lg-6 col-lg-offset-3">
+                <p>Design philosophies are fundamental guiding principles that dictate how a designer approaches his/her practice. Reflections on material culture and environmental concerns (Sustainable design) can guide a design philosophy. One example is the First Things First manifesto which was launched within the graphic design community and states "We propose a reversal of priorities in favor of more useful, lasting and democratic forms of communication a mindshift away from product marketing and toward the exploration and production of a new kind of meaning. The scope of debate is shrinking; it must expand. Consumerism is running uncontested; it must be challenged by other perspectives expressed, in part, through the visual languages and resources of design."
+
+                    In The Sciences of the Artificial by polymath Herbert A. Simon the author asserts design to be a meta-discipline of all professions. "Engineers are not the only professional designers. Everyone designs who devises courses of action aimed at changing existing situations into preferred ones. The intellectual activity that produces material artifacts is no different fundamentally from the one that prescribes remedies for a sick patient or the one that devises a new sales plan for a company or a social welfare policy for a state. Design, so construed, is the core of all professional training; it is the principal mark that distinguishes the professions from the sciences. Schools of engineering, as well as schools of architecture, business, education, law, and medicine, are all centrally concerned with the process of design."</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contacts" class="contacts container text-center">
+        <hr/>
+        <div class="row contacts-header">
+            <div class="text-center">
+                <h1>Contacts</h1>
+            </div>
+        </div>
+        
+        <div class="contacts-content col-lg-1 col-lg-offset-0">
+            <a href="mailto:hrypko@gmail.com">hrypko@gmail.com</a>
+            <p>+380 63 624 02 78</p>
+            
+            <a id="a-social-fb" class="btn btn-social"></a>
+            <a id="a-social-be" class="btn btn-social"></a>
+            <a id="a-social-t" class="btn btn-social"></a>
+        </div>
+    </section>
+
+    <footer>
+        <hr class="large"/>
+        <div class="container footer">
+            <div class="row text-center">
+                <div class="col-lg-6">
+                    <span>PAVEL HRYPKO &copy; 2014 &bull; ALL RIGHTS RESERED</span>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1">
+                    <span>DESIGN BY NAZAR FEDUNKIV</span>
+                </div>
+            </div>    
+        </div>
+    </footer>
+    
+    <div class="portfolio-modal modal fade" id="workDetails" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+        <section class="workdetails">
+            <div class="workdetails-body">
+                
+            </div>
+        </section>
+        </div>
+    </div>
+    
+    <div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                </div>
+                <div id="links"></div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script src="workDetail/blueimp-gallery.min.js"></script>
+    <script src="workDetail/bootstrap-image-gallery.min.js"></script>
+    <script src="workDetail/demo.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,321 @@
+
+@font-face {
+    font-family: andres;
+    src: url('../fonts/ANDERS.TTF');
+}
+
+@font-face {
+    font-family: proxima nova thin;
+    src: url('../fonts/Proxima Nova Thin.otf');
+}
+
+*, *:after, *:before { border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+/* base controls -> */
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "proxima nova thin", "Helvetica Neue", Helvetica,Arial, sans-serif;
+    color: #cacaca;
+    background-color: #121212;
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    width: 50%;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+hr.large {
+    width: 90%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: "andres","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+a {
+    color: #219ab3;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #11505d;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #fcfcfc;
+    background: rgba(255,255,255,.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+/* <- base controls */
+
+/* specific controls -> */
+.btn {
+    text-transform: uppercase;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-navigation {
+    width: 70px;
+    height: 70px;
+    margin-top: 350px;
+    font-size: 40px;
+    color: #cacaca;
+    background: url(../img/arrowDown.png) no-repeat center center scroll;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-social {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* <- specific controls */
+
+/* navbar -> */
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    background-color: #000;
+}
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #cacaca;
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+.navbar-custom a {
+    color: #cacaca;
+}
+.navbar-custom .nav li.active {
+    outline: none;
+    background-color: rgba(255,255,255,.3);
+}
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.3);
+}
+
+/* <- navbar */
+
+/*  intro section -> */
+.intro {
+    display: table;
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #cacaca;
+    background: url(../img/header-bg.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: cover;
+    -o-background-size: contain;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*  <- intro section */
+
+/* works section -> */
+.works {
+    background-color: #000;
+}
+
+.works-header {
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+
+.works-content {
+}
+/* <- works section */
+
+/* philosophy section -> */
+.philosophy {
+    width: 100%;
+    height: auto;
+    padding: 0 0;
+    color: #cacaca;
+    background: url(../img/philosophy-bg.jpg) no-repeat center top scroll;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size:  contain;
+    -o-background-size: contain;
+}
+
+.philosophy-header {
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+/* <- philosophy section */
+
+/* contacts section -> */
+.contacts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contacts-header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.contacts-content {
+    width: 100%;
+    padding-top: 180px;
+    padding-bottom: 10px;
+    background: url(../img/contacts-bg.png) no-repeat center center ;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size:  contain;
+    -o-background-size: contain;
+}
+
+.contacts-social {
+    padding-right: 7px;
+    padding-left: 10px;
+    width: 20px;
+}
+
+/* <- contacts section */
+
+/* footer section -> */
+.footer {
+    font-size: 12px;
+}
+
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
+}
+/* <- footer section */
+
+
+/*  work details section -> */
+.workdetails {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #cacaca;
+    /*i think this is wrong image.*/
+    background: url(../img/header-bg.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: cover;
+    -o-background-size: contain;
+}
+
+.workdetails .workdetails-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*  <- work details section */
+
+/* misc -> */
+@-webkit-keyframes pulse {    
+    0 {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0 {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+/* <- misc */

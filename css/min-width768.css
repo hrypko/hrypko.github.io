@@ -1,0 +1,76 @@
+@media(min-width:760px) 
+{
+    /* base controls -> */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        letter-spacing: 32px;
+        font-size: 40px;
+    }
+
+    p {
+        margin: 0 0 35px;
+        font-size: 16px;
+        line-height: 2;
+    }
+    /* <- base controls */
+    
+    /* navbar -> */
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+    /* <- navbar */
+    
+    /*  intro section -> */
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+    /*  <- intro section */
+    
+    /* works section -> */
+    .works-header {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    /* <- works section */
+    
+    /* philosophy section -> */
+    .philosophy-header {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    /* <- philosophy section */
+    
+    /* contacts section -> */
+    .contacts{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .contacts-header {
+        padding-top: 50px;
+        padding-bottom: 50px;        
+    }
+    .contacts-content{
+        padding-top: 180px;
+        padding-bottom: 10px;    
+    }
+    /* <- contacts section */
+}
