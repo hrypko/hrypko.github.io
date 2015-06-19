@@ -36,7 +36,7 @@ $('#workDetails').on('show.bs.modal', function (e) {
 
 
 $.ajax({
-    url: "data.json",
+    url: "data.html",
     success: function (data) {
         fullData = jQuery.parseJSON(data);
         buildPortfolios();
