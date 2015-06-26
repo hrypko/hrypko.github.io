@@ -207,7 +207,7 @@ img::-moz-selection {
     background: url(../img/philosophy-bg.jpg) no-repeat center top scroll;
     -webkit-background-size: contain;
     -moz-background-size: contain;
-    background-size:  cover;
+    background-size:  contain;
     -o-background-size: contain;
 }
 
