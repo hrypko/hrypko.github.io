@@ -58,7 +58,7 @@ function buildPortfolios() {
 function initializeUI() {
     $('#a-social-fb').attr('href', fullData.facebook_account_url);
     $('#a-social-be').attr('href', fullData.behance_account_url);
-    $('#a-social-t').attr('href', fullData.twitter_account_url);
+    $('#a-social-inst').attr('href', fullData.instagram_account_url);
 }
 
 function buildDetailPortfolio(portfolio) {

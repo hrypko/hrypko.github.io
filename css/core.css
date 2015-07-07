@@ -202,12 +202,12 @@ img::-moz-selection {
 .philosophy {
     width: 100%;
     height: auto;
-    padding: 0 0;
+    padding: 0 25px 0 25px;
     color: #cacaca;
     background: url(../img/philosophy-bg.jpg) no-repeat center top scroll;
     -webkit-background-size: contain;
     -moz-background-size: contain;
-    background-size:  contain;
+    background-size: cover;
     -o-background-size: contain;
 }
 
