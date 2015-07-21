@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+
+  <data name="en_project_title"><![CDATA[New Project]]></data>
+
+
+
+  <data name="en_pano35_title"><![CDATA[Памятник]]></data>
+
+
+  <data name="en_pano22_title"><![CDATA[Вход]]></data>
+
+
+  <data name="en_pano23_title"><![CDATA[Плакат]]></data>
+
+
+  <data name="en_pano34_title"><![CDATA[Перекресток]]></data>
+
+
+  <data name="en_pano21_title"><![CDATA[Кафе-лекции]]></data>
+
+
+  <data name="en_pano30_title"><![CDATA[Отдых для детей]]></data>
+
+
+  <data name="en_pano24_title"><![CDATA[Фотовыставка]]></data>
+
+
+  <data name="en_pano20_title"><![CDATA[Батуты]]></data>
+
+
+  <data name="en_pano32_title"><![CDATA[Стадион]]></data>
+
+
+  <data name="en_pano28_title"><![CDATA[Выставочный зал]]></data>
+
+
+  <data name="en_pano25_title"><![CDATA[Надихаемо]]></data>
+
+
+  <data name="en_pano26_title"><![CDATA[Еда]]></data>
+
+
+  <data name="en_pano27_title"><![CDATA[Сцена1]]></data>
+
+
+  <data name="en_pano29_title"><![CDATA[Кафе в лесу]]></data>
+
+
+  <data name="en_pano31_title"><![CDATA[Лабиринт]]></data>
+
+
+  <data name="en_pano33_title"><![CDATA[Сцена2]]></data>
+
+
+
+
+	<data name="en_project_floor_title"><![CDATA[Map1]]></data>
+	<data name="en_spotmap74_tooltip"><![CDATA[Памятник]]></data>
+	<data name="en_spotmap77_tooltip"><![CDATA[Вход в парк]]></data>
+	<data name="en_spotmap78_tooltip"><![CDATA[Плакат при входе]]></data>
+	<data name="en_spotmap79_tooltip"><![CDATA[Перекресток]]></data>
+	<data name="en_spotmap82_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap83_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap84_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap85_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap86_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap87_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap192_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap193_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap195_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap197_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap198_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap199_tooltip"><![CDATA[]]></data>
+
+
+  <data name="en_controlBar_urbanzoomInTip"><![CDATA[Zoom in]]></data>
+  <data name="en_controlBar_urbanzoomOutTip"><![CDATA[Zoom out]]></data>
+  <data name="en_controlBar_urbanmoveLeftTip"><![CDATA[Move left]]></data>
+  <data name="en_controlBar_urbanmoveRightTip"><![CDATA[Move right]]></data>
+  <data name="en_controlBar_urbanmoveUpTip"><![CDATA[Move up]]></data>
+  <data name="en_controlBar_urbanmoveDownTip"><![CDATA[Move down]]></data>
+  <data name="en_controlBar_urbanopenFsTip"><![CDATA[Enter fullscreen]]></data>
+  <data name="en_controlBar_urbancloseFsTip"><![CDATA[Exit fullscreen]]></data>
+  <data name="en_controlBar_urbanautorotateOnTip"><![CDATA[Start autorotation]]></data>
+  <data name="en_controlBar_urbanautorotateOffTip"><![CDATA[Stop autorotation]]></data>
+  <data name="en_controlBar_urbandisplayControlsTip"><![CDATA[Show controls]]></data>
+  <data name="en_controlBar_urbanhideControlsTip"><![CDATA[Hide controls]]></data>
+  <data name="en_logowebsiteurl"><![CDATA[http://artpicnic.org/]]></data>
+  <data name="en_logotooltipText"><![CDATA[Open website]]></data>
+  <data name="en_projectionMenumenutitlelabel"><![CDATA[Projections]]></data>
+  <data name="en_projectionMenunormallabel"><![CDATA[Normal View]]></data>
+  <data name="en_projectionMenufisheyelabel"><![CDATA[Fisheye View]]></data>
+  <data name="en_projectionMenuarchitecturallabel"><![CDATA[Architectural View]]></data>
+  <data name="en_projectionMenustereographiclabel"><![CDATA[Stereographic View]]></data>
+  <data name="en_projectionMenupanninilabel"><![CDATA[Pannini View]]></data>
+  <data name="en_projectionMenulittleplanetlabel"><![CDATA[Little Planet View]]></data>
+  <data name="en_projectionMenufisheyeballlabel"><![CDATA[Fisheye Ball View]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>
