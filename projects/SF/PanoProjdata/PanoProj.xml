@@ -3,7 +3,7 @@
         onstart="startup"
         logkey="false"
         bgcolor="#ffffff"
-        projectfloorplanurl="%FIRSTXML%/floorplan/map1.jpg"
+        projectfloorplanurl="%FIRSTXML%/floorplan/_1072108810901072.jpg"
         projecttitleid="project_title"
         projectdescriptionid="">
 

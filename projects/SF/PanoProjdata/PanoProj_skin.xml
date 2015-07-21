@@ -437,7 +437,7 @@ if (device.desktop,
 			onhover="showTooltip(bottomright);"
 			onout="hideTooltip();"
          url="%FIRSTXML%/graphics/logo/_6373_680.png" 
-         onclick="openurl(http://artpicnic.org/,_blank);"
+         onclick="openurl(http://artpicnic.org/,_top);"
 
 
          />
@@ -788,10 +788,10 @@ if (device.desktop,
 				
 				<floorplanItem 
 					name="fpitemmain" 
-					width="601" 
-					height="800" 
+					width="600" 
+					height="935" 
 					groupName="" 
-					url="floorplan/map1.jpg" 
+					url="floorplan/_1072108810901072.jpg" 
 					title="project_floor_title"
 					heading="0">
 							<spot name="spotmap74" posX="0.421986" posY="0.946809" heading="0" desc="spotmap74_tooltip" descType="tooltip" groupName="" isScene="true" scene="pano35" jsClick="spotmap74ActionSpotFloorPlan">
