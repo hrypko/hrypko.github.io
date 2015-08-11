@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.17">
+
+  <!-- ******************************************** -->
+  <!-- Picture : bottomright -->
+  <!-- ******************************************** -->
+  <layer name="picture"
+         keep="true"
+         url="%FIRSTXML%/graphics/picture/_329362.png" 
+         align="bottomright"
+         x="10"
+         y="10"
+         zorder="0"
+         handcursor="false"
+         enabled="false"
+         visible="false"
+         height="70"
+         width="70"
+         />
+
+  <events name="pictureevents" 
+    onTourStart="showpicture();"
+    hidetourcontrols="hidepicture();" 
+    showtourcontrols="showpicture();" 
+    keep="true" />
+
+  <action name="hidepicture">set(layer[picture].visible, false);</action>
+  <action name="showpicture">set(layer[picture].visible, true);</action>
+
+</krpano>
